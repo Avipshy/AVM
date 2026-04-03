@@ -22,3 +22,4 @@ class Solution:
                 stack.append(int(element))
         
         return stack[0]
+    

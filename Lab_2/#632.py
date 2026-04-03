@@ -33,6 +33,7 @@ class MyCircularQueue:
 
     def isFull(self) -> bool:
         return len(self.queue) == self.size
+    
         
 
 

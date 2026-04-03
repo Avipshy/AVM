@@ -21,6 +21,7 @@ class MyQueue:
 
     def empty(self) -> bool:
         return len(self.stack_1) == 0 and len(self.stack_2) == 0
+    
         
 
 

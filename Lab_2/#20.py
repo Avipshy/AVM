@@ -11,3 +11,4 @@ class Solution:
                 stack.append(char)
         
         return len(stack) == 0
+    
