@@ -32,9 +32,7 @@ class MyCircularQueue:
         return len(self.queue) == 0
 
     def isFull(self) -> bool:
-        return len(self.queue) == self.size
-    
-        
+        return len(self.queue) == self.size   
 
 
 # Your MyCircularQueue object will be instantiated and called as such:
