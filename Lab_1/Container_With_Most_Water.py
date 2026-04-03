@@ -11,7 +11,3 @@ class Solution:
             else:
                 right -= 1
         return max_container
-sol = Solution()
-
-print(f'height = [1,8,6,2,5,4,8,3,7] : {sol.maxArea([1,8,6,2,5,4,8,3,7])}')
-print(f'height = [1,1] : {sol.maxArea([1,1])}')

@@ -15,9 +15,3 @@ class Solution:
             left += 1
             right -= 1
         return True
-    
-sol = Solution()
-
-print(f'"A man, a plan, a canal: Panama": {sol.isPalindrome("A man, a plan, a canal: Panama")}')
-print(f'"race a car": {sol.isPalindrome("race a car")}')
-print(f'"": {sol.isPalindrome("")}')
