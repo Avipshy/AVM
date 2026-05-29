@@ -31,3 +31,4 @@ class Solution:
             if dfs(course):
                 return False
         return True
+    

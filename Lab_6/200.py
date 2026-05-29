@@ -24,3 +24,4 @@ class Solution:
                     dfs(r, c)
         
         return islands
+    

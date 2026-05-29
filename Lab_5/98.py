@@ -15,3 +15,4 @@ class Solution:
             return (valid(node.left, low_bound, node.val) and valid(node.right, node.val, high_bound))
 
         return valid(root, float('-inf'), float('inf'))
+    

@@ -26,3 +26,4 @@ class Solution:
             dfs(row, cols - 1, atlantic)
         
         return list(pacific & atlantic)
+    

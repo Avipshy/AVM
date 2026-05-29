@@ -13,3 +13,4 @@ class Solution:
         right_depth = self.maxDepth(root.right)
 
         return max(left_depth, right_depth) + 1
+    
